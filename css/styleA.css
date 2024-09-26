@@ -3,7 +3,7 @@ body > * {
     grid-row-start: auto;
 }
 
-nav, header, section, footer {grid-column-end: span 6;}
+nav, header, #gallery, footer {grid-column-end: span 6;}
 
 main {grid-column-end: span 4;}
 

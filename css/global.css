@@ -20,7 +20,7 @@ p {
     margin: 1rem;
 }
 
-main, aside, section {
+main, aside, #gallery {
     padding: 10px;
     > * {
         background-color: #888;
@@ -34,7 +34,7 @@ main, aside {
     justify-content: flex-start;
 }
 
-section {
+#gallery {
     display: grid;
     gap: 10px;
     grid-template: repeat(3, auto) / repeat(6, 1fr);
