@@ -1,0 +1,45 @@
+/*From B:*/
+
+body {
+    grid-template-areas: 
+    "n n n n n n"
+    "h h h h h h"
+    "m m m m a a"
+    "A A A B B B"
+    "C C C D D D"
+    "g g g g g g"
+    "f f f f f f"
+    ;
+}
+
+nav {grid-area: n;}
+header {grid-area: h;}
+main {grid-area: m;}
+aside {grid-area: a;}
+#art-A {grid-area: A;}
+#art-B {grid-area: B;}
+#art-C {grid-area: C;}
+#art-D {grid-area: D;}
+#gallery {grid-area: g;}
+footer {grid-area: f;}
+
+/*Exercise C:*/
+@media only screen and (max-width: 700px) {
+    body {
+        grid-template: 5rem 20rem auto auto 15rem 15rem auto 15rem / 1fr 1fr;
+        grid-template-areas: 
+        "n n"
+        "h h"
+        "m m"
+        "a a"
+        "A B"
+        "C D"
+        "g g"
+        "f f"
+        ;
+    }
+
+    #gallery {
+        grid-template: repeat(9, auto) / 1fr 1fr;
+    }
+}

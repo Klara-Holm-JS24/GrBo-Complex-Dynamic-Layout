@@ -5,7 +5,7 @@ body {
     "m m m m a a"
     "A A A B B B"
     "C C C D D D"
-    "s s s s s s"
+    "g g g g g g"
     "f f f f f f"
     ;
 }
@@ -18,5 +18,5 @@ aside {grid-area: a;}
 #art-B {grid-area: B;}
 #art-C {grid-area: C;}
 #art-D {grid-area: D;}
-section {grid-area: s;}
+#gallery {grid-area: g;}
 footer {grid-area: f;}
