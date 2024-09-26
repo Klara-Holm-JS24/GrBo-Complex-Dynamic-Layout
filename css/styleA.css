@@ -1,0 +1,12 @@
+body > * {
+    grid-column-start: auto;
+    grid-row-start: auto;
+}
+
+nav, header, section, footer {grid-column-end: span 6;}
+
+main {grid-column-end: span 4;}
+
+aside {grid-column-end: span 2;}
+
+body > article {grid-column-end: span 3;}
