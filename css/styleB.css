@@ -1,0 +1,22 @@
+body {
+    grid-template-areas: 
+    "n n n n n n"
+    "h h h h h h"
+    "m m m m a a"
+    "A A A B B B"
+    "C C C D D D"
+    "s s s s s s"
+    "f f f f f f"
+    ;
+}
+
+nav {grid-area: n;}
+header {grid-area: h;}
+main {grid-area: m;}
+aside {grid-area: a;}
+#art-A {grid-area: A;}
+#art-B {grid-area: B;}
+#art-C {grid-area: C;}
+#art-D {grid-area: D;}
+section {grid-area: s;}
+footer {grid-area: f;}
